@@ -1,5 +1,57 @@
 .App {
-  text-align: center;
+  padding: 20px;
+}
+
+.parent-container {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.address-container {
+  padding: 5px;
+}
+
+.dapp-balance {
+  padding: 5px;
+}
+
+.scw-balance {
+  padding: 5px;
+}
+
+.block-heading {
+  margin: 10px 0px;
+  font-weight: bold;
+}
+
+.action-container {
+  width: 500px;
+
+}
+
+.gasless-action {
+  margin-bottom: 20px;
+}
+
+.action-button {
+  margin: 0px 5px;
+}
+
+.transactions-body {
+  margin-top: 10px;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
 }
 
 .App-logo {
